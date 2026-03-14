@@ -18,7 +18,11 @@ import {
   resolveSessionTranscriptPathInDir,
   validateSessionId,
 } from "./paths.js";
-import { evaluateSessionFreshness, resolveDailyResetAtMs, resolveSessionResetPolicy } from "./reset.js";
+import {
+  evaluateSessionFreshness,
+  resolveDailyResetAtMs,
+  resolveSessionResetPolicy,
+} from "./reset.js";
 import { appendAssistantMessageToSessionTranscript } from "./transcript.js";
 import type { SessionEntry } from "./types.js";
 
